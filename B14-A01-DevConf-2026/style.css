@@ -14,11 +14,13 @@ img{
     max-width: 100%;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1551px;
     margin: auto;
 }
 .navbar {
     display: flex;
+    /* padding: 1551px; */
+    height: 98px;
     
 }
 ul {
@@ -54,3 +56,42 @@ ul li a {
     cursor: pointer;
     border-radius: 12px;
 }
+.hero-section{
+    width: 100%;
+    height: 786px;
+    background-image:
+     radial-gradient(
+         circle at 85% 45%,
+        rgba(255, 255, 255, 0.18) 0% ,
+        rgba(0, 0, 0, 0.50) 50%
+     ),
+      url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-contant {
+    margin-top: 125px;
+}
+.hero-contant p{
+    font-size: 23px;
+    max-width: 700px;
+    color: #FFFFFF;
+}
+.hero-contant h1 span{
+    font-style:italic;
+}
+.hero-contant h1 {
+    font-size: 80px;
+}
+.hero-contant button {
+    margin-top: 300px;
+    padding: 20px 50px;
+    font-size: 30px;
+}
+
