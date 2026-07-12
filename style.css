@@ -19,6 +19,7 @@ img{
 .container {
     max-width: 1550px;
     margin: auto;
+    
 }
 .navbar {
     display: flex;
@@ -244,7 +245,7 @@ ul li a {
      margin-top: 30px;
      background-color:  #FFFFFF;
     width: 100%;
-    border: 1px solid 0D1B2A;
+    border: 1px solid #0D1B2A;
     padding: 18px;
     font-weight: bold;
     font-size: 16px;
@@ -382,20 +383,18 @@ ul li a {
     margin-top: 125px;
     padding-top: 56px ;
     padding-bottom: 32px;
-    padding-left: 120px;
-    padding-right: 120px;
 }
 .footer-content {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    padding: 0 120px;
 }
 .footer-content p, .footer-content a {
     color: #888888;
 }
 .footer-link a {
     text-decoration: none;
-    /* gap: 200px; */
+    
 }
 .footer-link {
     display: flex;
