@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -9,14 +10,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 22px 80 px;
+    padding: 10px;
     background-color: #ffffff;
 }
 img{
     max-width: 100%;
 }
 .container {
-    max-width: 1551px;
+    max-width: 1550px;
     margin: auto;
 }
 .navbar {
@@ -43,7 +44,7 @@ ul li a {
     gap: 10px;
 }
 .nav-logo h3 {
-    font-size: 25;
+    font-size: 22PX;
     color: #0D1B2A;
 }
 .nav-logo img {
@@ -52,7 +53,7 @@ ul li a {
 /* NAVBER SECTION END */
 .common-button{
     background-color: #1D4ED8;
-    padding: 15px 40px;
+    padding: 15px 60px;
     font-weight: 1200px;
     font-size: 15px;
     color: #FFFFFF;
@@ -86,9 +87,9 @@ ul li a {
     margin-top: 125px;
 }
 .hero-contant p{
-    margin-top: 20px;
-    font-size: 23px;
-    max-width: 700px;
+    margin: 20px auto 0;
+    font-size: 20px;
+    max-width: 750px;
     color: #FFFFFF;
 }
 .hero-contant h1 span{
@@ -149,7 +150,7 @@ ul li a {
 }
 .card h3 {
     color: #0D1B2A;
-    font-size: 25px;
+    font-size: 22px;
 }
 /* MEET THE SPEAKER SECTION END */
 
@@ -269,76 +270,135 @@ ul li a {
 
 
 
-/* CONFERENCE PERKS SECTION*/
+/*WHAT'S INCLUDED WITH YOUR PASS*/
 .conference-perks{
-    width: 100%;
-    padding:100px 0;
-    background:#F8FAFC;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .perks-header{
-    text-align:center;
-    margin-bottom:60px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .perks-header h2{
-    font-size:50px;
-    color:#0D1B2A;
-    margin-bottom:18px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 18px;
 }
 
 .perks-header p{
-    max-width:720px;
-    margin:auto;
-    font-size:20px;
-    color:#575757;
-    line-height:1.7;
+    max-width: 720px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #575757;
 }
 
 .perks-container{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28px;
 }
 
 .perk-card{
-    background:#FFFFFF;
-    border:1px solid #E5E7EB;
-    border-radius:18px;
-    padding:35px;
-    transition:0.35s;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+    padding: 35px;
+    transition: all .35s ease;
 }
 
 .perk-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 18px 35px rgba(0,0,0,.08);
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(37,99,235,.12);
+    border-color: #2563EB;
 }
 
 .perk-icon{
-    width:70px;
-    height:70px;
-    background:#DBEAFE;
-    color:#2563EB;
-    font-size:34px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    border-radius:50%;
-    margin-bottom:25px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #DBEAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    margin-bottom: 24px;
 }
 
 .perk-card h3{
-    font-size:26px;
-    color:#0D1B2A;
-    margin-bottom:15px;
+    font-size: 26px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
 }
 
 .perk-card p{
-    color:#575757;
-    line-height:1.8;
-    font-size:17px;
+    color: #575757;
+    font-size: 17px;
+    line-height: 1.8;
 }
 
+/* CTA */
+
+.perks-cta{
+    margin-top: 80px;
+    text-align: center;
+    background: #F8FAFC;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 60px 40px;
+}
+
+.perks-cta h3{
+    font-size: 38px;
+    color: #0D1B2A;
+    margin-bottom: 18px;
+}
+
+.perks-cta p{
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.perks-cta .common-button{
+    padding: 18px 42px;
+    font-size: 17px;
+    transition: .3s ease;
+}
+
+.perks-cta .common-button:hover{
+    background: #1E40AF;
+    transform: translateY(-3px);
+}
+
+/* FOOTER SECTION STRT */
+.footer {
+    background-color: #0D1B2A;
+    margin-top: 125px;
+    padding-top: 56px ;
+    padding-bottom: 32px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footer-content p, .footer-content a {
+    color: #888888;
+}
+.footer-link a {
+    text-decoration: none;
+    /* gap: 200px; */
+}
+.footer-link {
+    display: flex;
+    gap: 40px;
+}
 
